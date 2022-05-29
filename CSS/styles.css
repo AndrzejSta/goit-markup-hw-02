@@ -92,3 +92,17 @@ ul {
   font-size: 14px;
   line-height: 24px;
 }
+.header-name
+{
+    color:#212121;
+    font-weight:700;
+    font-size:36px;
+    line-height:42.19px;
+}
+.slogan
+{
+    color:#ffffff;
+    font-weight:900;
+    font-size:44px;
+    line-height:60px;
+}
