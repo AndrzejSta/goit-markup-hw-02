@@ -12,11 +12,20 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-}
-.button:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
+.button1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.button1:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
 .name-project {
   color: #212121;
   font-weight: 700;
@@ -51,7 +60,7 @@ body {
   line-height: 16.41px;
 }
 .text-footer2 {
-  color: #ffffff 60%;
+  color: #ffffff;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -92,17 +101,34 @@ ul {
   font-size: 14px;
   line-height: 24px;
 }
-.header-name
-{
-    color:#212121;
-    font-weight:700;
-    font-size:36px;
-    line-height:42.19px;
+.header-name {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
 }
-.slogan
+.slogan {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+.header1 {
+  background-color: #ffffff;
+}
+.slogan1 {
+  background-color: #2f303a;
+}
+.what-we-do {
+  background-color: #ffffff;
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+.footer-address {
+  background-color: #2f303a;
+}
+.main-section
 {
-    color:#ffffff;
-    font-weight:900;
-    font-size:44px;
-    line-height:60px;
+  background-color: #E5E5E5;
 }
