@@ -14,12 +14,14 @@ body {
   line-height: 26px;
   background-color: #2196f3;
   color: #ffffff;
+  cursor: pointer;
 }
 .button1 {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  cursor: pointer;
 }
 .button1:hover {
   background-color: #2196f3;
@@ -41,11 +43,15 @@ body {
 .link:hover {
   color: #2196f3;
 }
-.text-header {
+.link-text-header {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
+  text-decoration: none;
+}
+.link-text-header:hover {
+  color: #2196f3;
 }
 .text-footer {
   color: #ffffff;
@@ -53,17 +59,25 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
-.text-header2 {
+.link-text-header2 {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
+  text-decoration: none;
 }
-.text-footer2 {
+.link-text-header2:hover {
+  color: #2196f3;
+}
+.link-text-footer2 {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
+}
+.link-text-footer2:hover {
+  color: #2196f3;
 }
 .logo {
   font-family: raleway;
@@ -128,7 +142,9 @@ ul {
 .footer-address {
   background-color: #2f303a;
 }
-.main-section
-{
-  background-color: #E5E5E5;
+.main-section {
+  background-color: #e5e5e5;
+}
+.color-logo2 {
+  color: #ffffff;
 }
