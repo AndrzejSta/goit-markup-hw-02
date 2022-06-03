@@ -76,6 +76,7 @@ body {
   line-height: 1.7;
   text-decoration: none;
   font-style: normal;
+  opacity: 0.6;
 }
 .link-text-footer2:hover {
   color: #2196f3;
@@ -150,4 +151,14 @@ ul {
 .color-logo2 {
   color: #ffffff;
   font-style: normal;
+}
+:root {
+  --red: #b00;
+  --blue: #4679bd;
+  --grey: #ddd;
+}
+.class {
+  color: var(--red);
+  background: var(--grey);
+  border: 1px solid var(--red);
 }
