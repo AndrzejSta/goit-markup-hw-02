@@ -80,6 +80,7 @@ body {
 }
 .link-text-footer2:hover {
   color: #2196f3;
+  opacity: 1;
 }
 .logo {
   font-family: raleway;
@@ -134,28 +135,30 @@ ul {
   background-color: #ffffff;
 }
 .slogan1 {
-  background-color: #2f303a;
+  background-color: var(--slogan);
 }
 .what-we-do {
   background-color: #ffffff;
 }
 .our-team {
-  background-color: #f5f4fa;
+  background-color: var(--our-team);
 }
 .footer-address {
-  background-color: #2f303a;
+  background-color: var(--footer);
 }
 .main-section {
-  background-color: #ffffff;
+  background-color: var(--main-section);
 }
 .color-logo2 {
   color: #ffffff;
   font-style: normal;
 }
 :root {
-  --red: #b00;
-  --blue: #4679bd;
-  --grey: #ddd;
+  --header: #ffffff;
+  --slogan: #2f303a;
+  --footer: #2f303a;
+  --our-team: #f5f4fa;
+  --main-section: #ffffff;
 }
 .class {
   color: var(--red);
